@@ -9,6 +9,20 @@
 
 <body>
     <script>
+        function temHabilidade(skills) {
+            var resultado = false;
+
+            for (let i = 0; i < skills.length; i++) {
+                if (skills[i] === "Javascript") {
+                    resultado = true;                    
+                }
+            }
+            
+            return resultado;
+        }
+        var skills = ["1", "ReactJS", "React Native"];
+        
+        console.log(temHabilidade(skills));
 
         
 

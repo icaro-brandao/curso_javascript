@@ -9,8 +9,18 @@
 
 <body>
     <script>
+        function pares(x, y) {
+            for (let i = x+1; i < y; i++) {
+                var resultado = (i % 2) == 0;
 
-        
+                if (resultado)  {
+                    console.log(i);
+                }
+
+            }
+        }
+        pares(32, 321);
+                
 
     </script>
 </body>
